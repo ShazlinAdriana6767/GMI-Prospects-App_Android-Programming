@@ -1,0 +1,155 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/gmi_background"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About GMI"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/gmi_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="German-Malaysian Institute"
+                android:textSize="16sp"
+                android:textColor="@color/gmi_red"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Who We Are"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/gmi_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="German-Malaysian Institute (GMI) is a technical education institution located in Kajang, Selangor. It focuses on developing skilled graduates through practical training and technical education inspired by German engineering and industrial practices."
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp"
+                android:textColor="@color/gmi_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="What GMI Offers"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/gmi_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="GMI provides technical and engineering education with an emphasis on hands-on learning, industry-relevant knowledge, and practical skills. Students can explore diploma programmes and selected pathways for further studies."
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp"
+                android:textColor="@color/gmi_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Programmes and Pathways"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/gmi_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Diploma Programmes&#10;Technical and engineering-related diploma courses designed to prepare students for employment or further education.&#10;&#10;German A-Level Preparatory Programme (GAPP)&#10;A preparatory pathway for students interested in continuing their education in Germany.&#10;&#10;German University Foundation Programme (GUFP)&#10;A foundation pathway intended to prepare eligible students for further studies."
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp"
+                android:textColor="@color/gmi_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="About GMI Prospect"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/gmi_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="GMI Prospect is a mobile application designed to help prospective students explore the programmes offered by GMI. The app provides programme information, a preliminary eligibility checker based on examination results, and contact details to help students plan their education."
+                android:textSize="15sp"
+                android:lineSpacingExtra="5dp"
+                android:textColor="@color/gmi_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Disclaimer"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/gmi_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="GMI Prospect is a student-developed informational application and is not an official admissions platform. Programme information and admission requirements should be confirmed with GMI."
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/gmi_gray" />
+
+            <Button
+                android:id="@+id/btnAboutWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Visit Official GMI Website"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/gmi_red"
+                android:textColor="@color/gmi_white" />
+
+            <Button
+                android:id="@+id/btnAboutBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Back to Home"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/gmi_blue"
+                android:textColor="@color/gmi_white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

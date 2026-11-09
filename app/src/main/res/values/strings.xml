@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Mini Project GMI Prospect</string>
+    <string name="gmi_logo_desc">GMI Logo</string>
+    <string name="institute_name">German-Malaysian Institute</string>
+    <string name="home_tagline">Your Future Starts Here</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="explore_programmes">Explore Our Programmes</string>
+    <string name="diploma">Diploma Programmes</string>
+    <string name="gapp">German University Preparatory (GAPP)</string>
+    <string name="gufp">GMI-UTP Foundation (GUFP)</string>
+    <string name="check_future">Find Your Future</string>
+    <string name="check_eligibility">Check My Eligibility</string>
+    <string name="more_information">More Information</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_gmi">About GMI</string>
+    <string name="home_description">Explore programmes, check your eligibility and start your journey with GMI.</string>
+
+
+    <string name="programmes_title">Our Programmes</string>
+    <string name="programmes_description">Explore the programmes available at German-Malaysian Institute.</string>
+    <string name="view_details">View Details</string>
+    <string name="course_duration">Duration</string>
+    <string name="course_fees">Estimated Fees</string>
+    <string name="diploma_duration">3 Years</string>
+    <string name="diploma_fees">RM33,324</string>
+    <string name="gapp_duration">20 Months at GMI + 6 Months in Germany</string>
+    <string name="gapp_fees">RM42,400</string>
+    <string name="gufp_duration">1 Year</string>
+    <string name="gufp_fees">Contact GMI for fee information</string>
+
+
+    <string name="course_details_title">Programme Details</string>
+    <string name="course_description_default">Learn more about this programme and check whether you meet the entry requirements.</string>
+    <string name="back_to_courses">Back to Programmes</string>
+    <string name="course_duration_value">Duration: %1$s</string>
+    <string name="course_fees_value">Estimated Fees: %1$s</string>
+    <string name="diploma_description">This diploma programme provides technical knowledge and practical skills through classroom learning, laboratory work and hands-on training.</string>
+    <string name="gapp_description">The German A-Level Preparatory Programme prepares students for further studies in Germany through academic preparation and language learning.</string>
+    <string name="gufp_description">The foundation programme prepares students for undergraduate studies by developing their knowledge in mathematics, science and other relevant subjects.</string>
+
+</resources>

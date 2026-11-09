@@ -1,0 +1,97 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/gmi_background"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eligibility Results"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/gmi_blue" />
+
+            <TextView
+                android:id="@+id/txtExamResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Examination: SPM"
+                android:textSize="14sp"
+                android:textColor="@color/gmi_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Here are the programmes you may qualify for based on your examination results."
+                android:textSize="14sp"
+                android:textColor="@color/gmi_gray" />
+
+            <LinearLayout
+                android:id="@+id/resultContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Important Notice"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/gmi_blue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="These eligibility results are for reference only. Final admission decisions are subject to verification and approval by GMI or MARA."
+                android:textSize="13sp"
+                android:textColor="@color/gmi_gray" />
+
+            <Button
+                android:id="@+id/btnCheckAgain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Check Again"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/gmi_blue"
+                android:textColor="@color/gmi_white" />
+
+            <Button
+                android:id="@+id/btnResultHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Back to Home"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/gmi_red"
+                android:textColor="@color/gmi_white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

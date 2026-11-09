@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+
+        <string-array name="exam_types">
+            <item>SPM</item>
+            <item>IGCSE / O-Level</item>
+        </string-array>
+
+        <string-array name="spm_grades">
+            <item>Select Grade</item>
+            <item>A+</item>
+            <item>A</item>
+            <item>A-</item>
+            <item>B+</item>
+            <item>B</item>
+            <item>C+</item>
+            <item>C</item>
+            <item>D</item>
+            <item>E</item>
+            <item>G</item>
+        </string-array>
+
+        <string-array name="igcse_grades">
+            <item>Select Grade</item>
+            <item>A*</item>
+            <item>A</item>
+            <item>B</item>
+            <item>C</item>
+            <item>D</item>
+            <item>E</item>
+            <item>F</item>
+            <item>G</item>
+            <item>U</item>
+        </string-array>
+
+    </resources>

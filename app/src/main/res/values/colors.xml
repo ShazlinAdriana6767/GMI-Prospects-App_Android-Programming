@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gmi_blue">#172D58</color>
+    <color name="gmi_red">#D52B32</color>
+    <color name="gmi_yellow">#F5C542</color>
+    <color name="gmi_background">#F5F7FB</color>
+    <color name="gmi_gray">#757575</color>
+    <color name="gmi_white">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#171717</color>
+    <color name="background">#F5F7FB</color>
+    <color name="gmi_text">#172D58</color>
+
+</resources>
